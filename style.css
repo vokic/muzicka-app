@@ -1,0 +1,81 @@
+label {
+  display: block;
+}
+
+#naslov {
+  text-transform: ;
+  text-align: center;
+}
+
+.navbar{
+  background: #222326;
+  overflow: hidden;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color: #222326;
+  background-image: url('slike/bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.navbar-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 132px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  float: left;
+  background-image: url('../img/logo.svg');
+}
+
+#naslov{
+  font-size: 80px;
+  color: white;
+  font-weight: 900;
+}
+
+#opis{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+#forma{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  background-color: #00b200; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#navbarcina{
+  display: flex;
+  justify-content: right;
+}
+
+h3{
+  color: white;
+}
